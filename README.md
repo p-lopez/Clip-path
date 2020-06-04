@@ -1,4 +1,4 @@
-# Fullscreen Chronometer
+# Clip-path
 Clip-path effect.
 
 [![Preview](img/clippath.gif)](img/clippath.gif)
