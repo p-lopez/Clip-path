@@ -1,7 +1,7 @@
 # Fullscreen Chronometer
 Clip-path effect.
 
-[![Preview](img/video_chrono.gif)](img/video_chrono.gif)
+[![Preview](img/clippath.gif)](img/clippath.gif)
 
 ## Project Overview
 This is a quick test to work with clip-path and text compositions.
