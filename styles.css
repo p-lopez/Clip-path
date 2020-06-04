@@ -1,0 +1,122 @@
+:root{
+    --backgroundColor: #d9ded9;
+    --pointer:blue;
+}
+
+*{
+    box-sizing:border-box;
+    margin:0; 
+    padding:0;
+}
+
+body{
+    background-color: var(--backgroundColor);
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.main{
+width:50vw;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+background-size:cover;
+}
+
+.yass{
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+}
+
+.yass img{
+    width:100%;
+    object-fit:cover;
+    height: 100vh;
+}
+
+.main.left{
+    background-color:#ff2111;
+}
+.main.right{
+    background-color:pink;
+}
+.wrapperClip{
+    left: 0;
+}
+.wrapperClip, .wrapperClipDos{
+    width: 50vw;
+    position: absolute;
+    height: 100vh;
+}
+
+.miClip{
+    clip-path: url(#miCirculo);
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background-color: var(--pointer);
+    
+}
+
+.miClipDos{
+    clip-path: url(#miCirculoDos);
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background-color: var(--pointer);
+}
+
+.radioGrande{
+
+r: 210;
+transition:0.4s;
+}
+
+.radioPeque{
+    r: 60;
+    transition:0.4s;
+}
+
+svg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.right svg{
+    right: 0;
+}
+
+.left svg{
+    left: 0;    
+}
+
+@media (max-width:1150px){
+    .wrapper{
+        display:block;
+    }
+    .main{
+        width:100vw;
+    }
+    .wrapperClip, .wrapperClipDos{
+        width: 100vw;
+        position: absolute;
+        height: 100vh;
+    }
+    .yass{
+        width:100vw;
+    }
+}
+
+
+
